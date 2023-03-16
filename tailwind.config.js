@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./src/App.jsx", "./src/main.jsx"],
   theme: {
     extend: {},
   },
@@ -10,4 +10,8 @@ module.exports = {
     },
   },
   plugins: [],
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
 }
